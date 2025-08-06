@@ -137,28 +137,3 @@ section {
     transition-delay: calc(.1s * var(--i));
 }
 
-.sidebar ul li .tooltip {
-    position: absolute;
-    left: 90px;
-    text-align: center;
-    align-items: center;
-    white-space: nowrap;
-    width: 122px;
-    height: 35px;
-    background: #652a0e63;
-    color: #fff;
-    border-radius: 6px;
-    box-shadow: 0 5px 10px #000000;
-    line-height: 35px;
-    pointer-events: none;
-    opacity: 0;
-}
-
-.sidebar ul li:hover .tooltip {
-    transition: .5s ease;
-    opacity: 1;
-}
-
-.sidebar.active ul li .tooltip {
-    display: none;
-}
