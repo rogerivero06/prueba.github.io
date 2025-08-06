@@ -136,4 +136,3 @@ section {
     pointer-events: auto;
     transition-delay: calc(.1s * var(--i));
 }
-
